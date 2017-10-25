@@ -109,15 +109,15 @@ You now have a git repository, likely with two branches: master and develop. Now
 ####You will never commit to ***develop*** directly.
 
 Instead, you will create ***feature branches*** on your machine that exist for the purpose of solving singular issues. You will always base your features off the develop branch.
-
-		git checkout develop
+        
+        git checkout develop
 		git checkout -b my-feature-branch
 
 This last command creates a new branch named "my-feature-branch" based off of develop. You can name that branch whatever you like. You should not have to push it to Github unless you intend to work on multiple machines on that feature.
 
 Make changes.
-
-	git add .
+	
+    git add .
 	git commit -am "I have made some changes."
 
 This adds any new files to be tracked and makes a commit. Now let's add them to develop.
@@ -143,7 +143,8 @@ Finished with your project?
 Replace 1.0.0 in the snippet here with your appropriate versions. Now you have a tag saved.
 
 
-
+Some basic Git commands are:
+```
 ionic2-roles@0.1.0 C:\Users\u0i6910\Documents\MEAN_IONIC2
 +-- bcrypt-nodejs@0.0.3
 +-- body-parser@1.18.2
@@ -247,3 +248,4 @@ ionic2-roles@0.1.0 C:\Users\u0i6910\Documents\MEAN_IONIC2
 | `-- pause@0.0.1
 +-- passport-jwt@2.2.1
 `-- passport-local@1.0.0
+```
